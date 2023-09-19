@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: monospace, sans-serif;
+  background-color: rgb(12, 12, 48);
+  color: #fff;
+}
+
+.flex {
+  display: flex;
+}
+
+main {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 600px;
+}
+
+.title1 {
+  justify-content: space-between;
+}
+
+.moon {
+  background-color: transparent;
+  color: #fff;
+  font-family: monospace, sans-serif;
+  border: none;
+  text-transform: uppercase;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.search {
+  margin-top: 30px;
+  background-color: rgb(50, 50, 88);
+  border-radius: 12px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  gap: 15px;
+}
+
+.search input {
+  flex-grow: 1;
+  background-color: transparent;
+  border: none;
+  font-family: monospace, sans-serif;
+  font-size: 25px;
+  color: #fff;
+}
+
+.search input::placeholder {
+  color: #fff;
+}
+
+.search input:focus {
+  outline: none;
+}
+
+.search button {
+  background-color: rgb(28, 97, 224);
+  color: white;
+  border: none;
+  border-radius: 14px;
+  font-family: monospace, sans-serif;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.result {
+  margin-top: 30px;
+  background-color: rgb(50, 50, 88);
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 14px;
+  gap: 15px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.part2 {
+  flex-grow: 1;
+}
+.title2 {
+  justify-content: space-between;
+}
+
+.profile {
+  flex-grow: 1;
+}
+
+.profile p {
+  color: blue;
+}
+
+.date {
+  color: beige;
+  font-size: 13px;
+}
+
+.bio {
+  margin-top: 20px;
+  color: beige;
+}
+
+.information {
+  background-color: rgb(12, 12, 48);
+  margin-top: 25px;
+  border-radius: 14px;
+  justify-content: space-around;
+  padding: 10px;
+  padding-right: 20px;
+}
+
+.information p {
+  font-size: 14px;
+}
+
+.subInfo1 {
+  margin-top: 20px;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.subInfo1 p {
+  font-size: 14px;
+}
+
+.parragraf1 {
+  margin-bottom: 10px;
+}
